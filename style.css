@@ -1,0 +1,69 @@
+/* ------------------------------------
+   This file contains the css rules for the
+   chg web page
+*/
+html, body, #maindiv {
+    width:   100%; 
+    height:  100%;
+    border:  0; 
+    padding: 0; 
+    margin:  0;
+    background: lightgreen;
+}
+#tabs {
+    width:   100%; 
+    height:  100%;
+    border:  0; 
+    padding: 0; 
+    margin:  0;
+}
+/* title bar tool heading font
+*/
+#toolheadingid {
+    font-family:    arial,helvetica,sans-serif;
+    font-size:      52px;
+    font-weight:    bold;
+    text-align:     left;
+    vertical-align: middle;
+}
+/* title bar tool version font
+*/
+#toolversionid {
+    font-size:  10px;
+}
+/* transparent background image in pre tabs
+*/
+pre.transparent {
+    background-color: transparent;
+}
+/* transparent background image in div tabs
+*/
+div.tabpic {
+    position: relative;
+    z-index:  1;
+}
+div.tabpic:before {
+    content:  '';
+    position: absolute;
+    z-index:  -1;
+    top:       0;
+    bottom:    0;
+    left:      0;
+    right:     0;
+    background:          url(tabpic);
+    background-size:     cover;
+    background-position: center;
+    background-repeat:   no-repeat;
+    opacity:    0.3
+}
+/* thumbnail images
+*/
+img.thumb {
+    border: 2px solid black;
+    padding: 5px;
+    width: 50px;
+}
+img.thumb:hover {
+    border: 2px solid white;
+}
+
