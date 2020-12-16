@@ -1,2 +1,4 @@
 # sample pictures to be displayed
-https://photos.app.goo.gl/YOURLINKHERE : 'Link to Work Photos'
+./pics/entrance.jpg : 'CHG Entrance'
+./pics/logo.jpg : 'CHG Logo'
+./pics/sunrise.jpg : 'Sunrise'

@@ -1,2 +1,5 @@
-# sample documents to be displayed
-https://drive.google.com/ADDYOURLINKHERE : 'Link to Documents on Google'
+# web app variables
+./docs/chgdirectory.pdf  :      'Residents Directory'
+./docs/chg-plotplan.pdf  :      'CHG Plot Plan'
+./docs/epcondontractors.pdf :   'EPCON Contractors'
+./docs/chgarchrequestform.pdf : 'Architectural Review Form'
