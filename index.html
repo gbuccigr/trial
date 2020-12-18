@@ -39,12 +39,12 @@
     <li><a href='#tabs-Residents'>Residents</a></li>
     <li><a href='#tabs-Documents'>Documents</a></li>
     <li><a href='#tabs-Pictures'>Pictures</a></li>
+    <li><a href='#tabs-Links'>Links</a></li>
     <li><a href='#tabs-Newsletters'>Newsletters</a></li>
     <li><a href='#tabs-Map'>Map</a></li>
     <li><a href='#tabs-Clubs'>Clubs</a></li>
     <li><a href='#tabs-Suggestions'>Suggestions</a></li>
     <li><a href='#tabs-Contact'>Contact</a></li>
-    <li><a href='#tabs-Admin'>Admin</a></li>
     <li><a href='#tabs-Debug'>Debug</a></li>
     <li><a href='#tabs-About'>About</a></li>
     </ul>
@@ -186,6 +186,27 @@
 </li>
 </ul>
     </div> <!-- tabs-Pictures -->
+    
+    <!-- tabs-Links -->
+    <div id='tabs-Links'>
+    <h3>Links to related information:</h3>
+<ul>
+<li>
+  <a href='https://www.epconcommunities.com/nc/wake-forest/the-courtyards-at-heritage-grove//' target='_blank'>Link to EPCON Courtyards of Heritage Grove Page
+  </a>
+</li>
+<li>
+  <a href='https://nextdoor.com/news_feed/' target='_blank'>Link to Your Nextdoor Page
+  </a>
+</li>
+<li>
+  <a href='https://drive.google.com/drive/folders/1C1iUSbcCq_bRYfWpXdkXx_YifK-0AkGs' target='_blank'>Link to Google Drive Courtyards of Heritage Grove Page
+  </a>
+</li>
+</ul>
+    <h3>Note:</h3>
+    <p>You may need to create a remote account in order to view the full content!</p>
+    </div> <!-- tabs-Links -->
 
     <!-- tabs-Newsletters -->
     <div id='tabs-Newsletters'>
@@ -220,11 +241,6 @@ SUGGESTIONS TAB HAD NO CONTENT
 </table>
     </div> <!-- tabs-Contact -->
 
-    <!-- tabs-Admin -->
-    <div id='tabs-Admin'>
-ADMIN TAB HAD NO CONTENT
-    </div> <!-- tabs-Admin -->
-
     <!-- tabs-Debug -->
     <div id='tabs-Debug'>
 <pre>
@@ -255,12 +271,12 @@ tabs:
 - Residents
 - Documents
 - Pictures
+- Links
 - Newsletters
 - Map
 - Clubs
 - Suggestions
 - Contact
-- Admin
 - Debug
 - About
 contactname: John Doe
@@ -277,6 +293,7 @@ contactlocationheight: 450
 picturedir: ./pics
 picturethumbsize: 50px
 documentdir: ./docs
+linksdir: ./links
 debugstr: ''
 tababoutfile: ./data/chg/tababout.html
 tabresidentsfile: ./data/chg/tabresidents.html
@@ -467,6 +484,13 @@ pic_dict:
   ./pics/logo.jpg: CHG Logo
   ./pics/sunrise.jpg: Sunrise
   yamlfile: data/chgpics/pic.yaml
+link_dict:
+  https://www.epconcommunities.com/nc/wake-forest/the-courtyards-at-heritage-grove//: Link
+    to EPCON Courtyards of Heritage Grove Page
+  https://nextdoor.com/news_feed/: Link to Your Nextdoor Page
+  https://drive.google.com/drive/folders/1C1iUSbcCq_bRYfWpXdkXx_YifK-0AkGs: Link to
+    Google Drive Courtyards of Heritage Grove Page
+  yamlfile: data/chglinks/links.yaml
 
 </pre>
     </div> <!-- tabs-Debug -->
